@@ -1,0 +1,12 @@
+import React from "react";
+
+                    //this component centers it's children both horizontally and vertically.
+
+export function Center({children}: {children: React.ReactNode })  {
+
+    return( <div className="flex justify-center flex-col h-full">
+        <div className="flex justify-center">
+            {children}
+        </div>
+    </div>)
+}
