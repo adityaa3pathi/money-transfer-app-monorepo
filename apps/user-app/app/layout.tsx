@@ -7,7 +7,7 @@ import { AppbarClient } from "../components/AppbarClient";
 
 const inter = Inter({ subsets: ["latin"] });
 
-//made this change to chage to check commit: :now  made another change to finally check 
+//made this change to chage to check commit: :now  made another change to finally check: : now againg added this change 
 
 export const metadata: Metadata = {
   title: "E-wallet",
