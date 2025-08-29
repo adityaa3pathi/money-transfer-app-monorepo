@@ -9,6 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 //made this change to chage to check commit: :now  made another change to finally check: :now againg added this change wtff another wtf
 
+// is it gonna come to an end
+
 export const metadata: Metadata = {
   title: "E-wallet",
   description: "simple e-wallet app",
