@@ -8,6 +8,9 @@ import prisma from "@repo/db/client";
 
 export async function createOnRampTransaction(amount: number, provider: string) {
     const session = await getServerSession(authOptions)
+    if (!session || !session.user?.id) {
+        throw new Error("Unauthorized: No active session");
+      }
     const token = Math.random().toString();
     const userId = session.user.id;
     if (!userId) {
